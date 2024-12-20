@@ -9,7 +9,6 @@ btn.onclick = function()
 }
 copybtn.onclick = function()
 {
-    let text = para.value;
     navigator.clipboard.writeText(para.value);
     alert("Copied Color Code !!!");
 }
